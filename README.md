@@ -41,6 +41,7 @@
 <img width="6%" title="Telegram" src="images/logo/Telegram.svg">
 </p>
 
+
 В данном проекте автотесты написаны на <code>Java</code> с использованием <code>Selenide</code> для UI-тестов.
 >
 > <code>Selenoid</code> выполняет запуск браузеров в контейнерах <code>Docker</code>.
