@@ -26,7 +26,7 @@
 - [x] Отсутствие ошибок в журнале консоли страницы
 
 
-## :owl: Технологический стек
+## :computer: Использованный стек технологий
 
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
@@ -40,6 +40,11 @@
 <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">
 <img width="6%" title="Telegram" src="images/logo/Telegram.svg">
 </p>
+
+Автотесты написаны на <code>Java</code> с использованием <code>JUnit 5</code> и <code>Gradle</code>.
+Для UI-тестов использован фреймворк [Selenide](https://selenide.org/).
+Запуск тестов можно осуществлять локально или с помощью [Selenoid](https://aerokube.com/selenoid/).
+Также реализована сборка в <code>Jenkins</code> с формированием Allure-отчета и отправкой уведомления с результатами в <code>Telegram</code> после завершения прогона.
 
 
 В данном проекте автотесты написаны на <code>Java</code> с использованием <code>Selenide</code> для UI-тестов.
