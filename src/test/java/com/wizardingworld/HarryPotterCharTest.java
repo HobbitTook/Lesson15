@@ -10,7 +10,6 @@ import org.junit.jupiter.api.Test;
 
     @Test
     void HPCharTest() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
         WebSteps steps = new WebSteps();
         steps.openMainPage();
         steps.clickSeaction();

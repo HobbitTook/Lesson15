@@ -55,6 +55,7 @@ public class WebSteps {
     public void seachSeaction3() {
         $(".storyteller-wrapper").shouldHave(text("The Pets Quiz")).click();
     }
+
     @Step("Увидеть страницу Meet the Characters")
     public void seachPage() {
         $(".storyteller-header").shouldHave(text("Character Snippets"));
@@ -63,12 +64,6 @@ public class WebSteps {
     @Step("Увидеть страницу Trap Door Trials")
     public void seachPage2() {
         $(".trap-door-trials-container").shouldHave(text("Trap Door Trials"));
-    }
-
-
-    @Attachment(value = "Screenshot", type = "image/png", fileExtension = "png")
-    public byte[] takeScreenshot() {
-        return ((TakesScreenshot) WebDriverRunner.getWebDriver()).getScreenshotAs(OutputType.BYTES);
     }
 
 

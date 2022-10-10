@@ -11,7 +11,6 @@ public class HarryPotterMenuTest1 extends TestData {
 
     @Test
     void HPMenuTest() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
         WebSteps steps = new WebSteps();
         steps.openMainPage();
         steps.clicMenu();
