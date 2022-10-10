@@ -87,7 +87,7 @@ test
 ### Результат выполнения теста
 
 <p align="center">
-<img title="Test Results in Alure" src="image/screen/allure_detail.png">
+<img title="Test Results in Alure" src="image/screen/allure_test.png">
 </p>
 
 ### <img width="4%" style="vertical-align:middle" title="Telegram" src="image/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
@@ -95,12 +95,12 @@ test
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне.
 
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="image/screen/telegram_not.png">
+<img width="70%" title="Telegram Notifications" src="image/screen/telegram_bot.png">
 </p>
 
 ### <img width="4%" style="vertical-align:middle" title="Selenoid" src="image/logo/Selenoid.svg"> Видео примера запуска теста в Selenoid
 
 К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
-  <img title="Selenoid Video" src="image/video/video.gif">
+  <img title="Selenoid Video" src="image/gif/804c09a178c1e357bef6dcb18e4d2156.gif">
 </p>
