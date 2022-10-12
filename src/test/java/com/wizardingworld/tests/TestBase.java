@@ -1,14 +1,13 @@
-package Components;
+package com.wizardingworld.tests;
 
-import Components.AllureAttach;
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import com.wizardingworld.helpers.AllureAttach;
+import config.DriverConfiguration;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
-    public class TestData {
+public class TestBase {
 
 
         @BeforeAll
